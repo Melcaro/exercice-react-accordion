@@ -1,0 +1,19 @@
+.accordion {
+  background-color: #eee;
+  color: #444;
+  width: 100%;
+  padding: 18px;
+}
+
+.activated {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 100px;
+  transform: translateY(100deg);
+}
+
+.hidden {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+}
