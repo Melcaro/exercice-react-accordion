@@ -8,12 +8,14 @@
 .activated {
   padding: 0 18px;
   background-color: white;
-  max-height: 100px;
-  transform: translateY(100deg);
+  max-height: 1000px;
+  transition: max-height 0.4s ease;
 }
 
 .hidden {
+  overflow: hidden;
   padding: 0 18px;
   background-color: white;
-  display: none;
+  max-height: 0px;
+  transition: max-height 0.4s ease;
 }
